@@ -10,6 +10,8 @@ while True:
 
         if a > 5:
             print("Greater")
+        else: 
+            print("Smaller")
 
     except Exception as e:
         print(f"Error - {e}")
